@@ -1,0 +1,10 @@
+{
+    "@@locale": "es",
+    "searchScreenAppBarTitle": "Buscar en Meli",
+    "searchScreenInputLabel": "¿Qué deseas buscar?",
+    "searchScreenErrorMessage": "Error en la búsqueda",
+    "resultsScreenErrorEmpty": "Sin resultados",
+    "detailScreenAppBarTitle": "Detalle",
+    "detailScreenError": "Error al cargar detalle",
+    "detailScreenQuantityAvailable": "Cantidad disponible"
+}
