@@ -73,6 +73,11 @@ $ open coverage/index.html
 
 Link: https://drive.google.com/drive/folders/1M4RiVoUqrMfKsXh-MPapYiYV4F_7gG0V
 
+## Android TV
+[android tv.webm](https://github.com/user-attachments/assets/9224d18d-517d-45cd-888e-045e0629ee61)
+
+Not the best choice for TV, but interesting reading: https://webostv.developer.lge.com/news/2024-07-15-new-and-successful-experiment-of-webos-with-flutter, https://developer.samsung.com/smarttv/develop/native/flutter.html and https://github.com/flutter-tizen/flutter-tizen
+
 ## Working with Translations
 
 This project relies on [flutter_localizations][flutter_localizations_link] and follows the [official internationalization guide for Flutter][internationalization_link].
@@ -88,11 +93,6 @@ flutter pub get && flutter pub run build_runner build --delete-conflicting-outpu
 ```
 
 Alternatively, run `flutter run` and code generation will take place automatically.
-
-## Android TV
-[android tv.webm](https://github.com/user-attachments/assets/9224d18d-517d-45cd-888e-045e0629ee61)
-
-Not the best choice for TV, but interesting reading: https://webostv.developer.lge.com/news/2024-07-15-new-and-successful-experiment-of-webos-with-flutter, https://developer.samsung.com/smarttv/develop/native/flutter.html and https://github.com/flutter-tizen/flutter-tizen
 
 [coverage_badge]: coverage_badge.svg
 [flutter_localizations_link]: https://api.flutter.dev/flutter/flutter_localizations/flutter_localizations-library.html
