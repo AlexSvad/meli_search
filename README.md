@@ -66,9 +66,8 @@ $ open coverage/index.html
 <img width="1567" alt="coverage" src="https://github.com/user-attachments/assets/dd236042-d498-41e0-be0b-9d4007f6263e" />
 
 
-## Videos
-
-
+## Video
+[video.webm](https://github.com/user-attachments/assets/bc5a33ca-96be-4a32-a20f-c411b0946297)
 
 ## Download the .apk Android app
 
@@ -89,6 +88,11 @@ flutter pub get && flutter pub run build_runner build --delete-conflicting-outpu
 ```
 
 Alternatively, run `flutter run` and code generation will take place automatically.
+
+## Android TV
+[android tv.webm](https://github.com/user-attachments/assets/9224d18d-517d-45cd-888e-045e0629ee61)
+
+Not the best choice for TV, but interesting reading: https://webostv.developer.lge.com/news/2024-07-15-new-and-successful-experiment-of-webos-with-flutter, https://developer.samsung.com/smarttv/develop/native/flutter.html and https://github.com/flutter-tizen/flutter-tizen
 
 [coverage_badge]: coverage_badge.svg
 [flutter_localizations_link]: https://api.flutter.dev/flutter/flutter_localizations/flutter_localizations-library.html
