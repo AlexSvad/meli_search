@@ -4,7 +4,7 @@ import 'api_item_model.dart';
 
 part 'api_multi_get_response_model.g.dart';
 
-@JsonSerializable()
+@JsonSerializable(explicitToJson: true)
 class ApiMultiGetResponseModel {
   ApiMultiGetResponseModel({
     required this.code,
@@ -13,6 +13,7 @@ class ApiMultiGetResponseModel {
 
   factory ApiMultiGetResponseModel.fromJson(Map<String, dynamic> json) =>
       _$ApiMultiGetResponseModelFromJson(json);
+
   final int code;
   final ApiItemModel body;
 

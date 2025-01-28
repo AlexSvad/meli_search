@@ -4,7 +4,7 @@ import 'api_item_model.dart';
 
 part 'search_result_model.g.dart';
 
-@JsonSerializable()
+@JsonSerializable(explicitToJson: true)
 class ApiSearchResultModel {
   ApiSearchResultModel({
     required this.siteId,
@@ -15,6 +15,7 @@ class ApiSearchResultModel {
 
   factory ApiSearchResultModel.fromJson(Map<String, dynamic> json) =>
       _$ApiSearchResultModelFromJson(json);
+
   @JsonKey(name: 'site_id')
   final String siteId;
   final String query;
@@ -35,6 +36,7 @@ class ApiPagingModel {
 
   factory ApiPagingModel.fromJson(Map<String, dynamic> json) =>
       _$ApiPagingModelFromJson(json);
+
   final int total;
   final int offset;
   final int limit;

@@ -17,5 +17,5 @@ Map<String, dynamic> _$ApiMultiGetResponseModelToJson(
         ApiMultiGetResponseModel instance) =>
     <String, dynamic>{
       'code': instance.code,
-      'body': instance.body,
+      'body': instance.body.toJson(),
     };

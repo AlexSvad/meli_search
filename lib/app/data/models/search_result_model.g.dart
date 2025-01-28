@@ -22,8 +22,8 @@ Map<String, dynamic> _$ApiSearchResultModelToJson(
     <String, dynamic>{
       'site_id': instance.siteId,
       'query': instance.query,
-      'paging': instance.paging,
-      'results': instance.results,
+      'paging': instance.paging.toJson(),
+      'results': instance.results.map((e) => e.toJson()).toList(),
     };
 
 ApiPagingModel _$ApiPagingModelFromJson(Map<String, dynamic> json) =>
