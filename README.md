@@ -63,6 +63,11 @@ $ open coverage/index.html
 ```
 ---
 
+93% of coverage:
+
+<img width="1567" alt="coverage" src="https://github.com/user-attachments/assets/dd236042-d498-41e0-be0b-9d4007f6263e" />
+
+
 ## Videos
 
 
